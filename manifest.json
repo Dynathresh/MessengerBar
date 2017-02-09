@@ -5,9 +5,9 @@
 	"description": "Quickly send and receive messages within the address bar.",
 	"version": "1.0",
 	
-	"omnibox": { "keyword" : " " },
+	"omnibox": { "keyword" : "mbar" },
 	"icons": {
-		"16": "16-full-color.png"
+		"16": "assets/logo_sq16.png"
 	},
 	"background": {
 		"persistent": false,
