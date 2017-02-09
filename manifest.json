@@ -1,3 +1,16 @@
 {
-  "name": "Messenger Bar
+	"manifest_version": 2,
+
+	"name": "Messenger Bar",
+	"description": "Quickly send and receive messages within the address bar.",
+	"version": "1.0",
+	
+	"omnibox": { "keyword" : " " },
+	"icons": {
+		"16": "16-full-color.png"
+	},
+	"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	}
 }
